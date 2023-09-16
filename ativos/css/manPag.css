@@ -1,5 +1,17 @@
 /*Ini Conteudo/Main do site =manPages*/
 
+body {
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: 100vw-scrolbar;
+  grid-template-rows: 15vh minmax(80vh, auto) 5vh;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+/*
 #manPages {
     grid-area: main;
     display: block;
@@ -7,9 +19,6 @@
     background-color: blue;
 }
 
-#manPages {
-
-}
 
 #manPages section {
     border-radius: 15px;
@@ -51,4 +60,4 @@
     grid-area: link;
     padding: 0.8cqh 0.4cqw;
     background-color: #303030;
-}
+}*/
