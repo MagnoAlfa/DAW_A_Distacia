@@ -1,7 +1,7 @@
 /*Ini Conteudo/Main do site =manPages*/
 
 body {
-  background-color: blueviolet;
+  background-color: brown;
   display: grid;
   grid-template-columns: 100vw-scrolbar;
   grid-template-rows: 100vh minmax(0vh, auto) 100vh;
@@ -9,6 +9,18 @@ body {
     'header'
     'main'
     'footer';
+}
+
+header {
+  background-color: blueviolet;
+}
+
+main {
+  background-color: gray;
+}
+
+footer {
+  background-color: green;
 }
 
 /*
