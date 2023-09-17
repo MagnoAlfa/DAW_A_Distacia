@@ -4,7 +4,7 @@ body {
   background-color: blueviolet;
   display: grid;
   grid-template-columns: 100vw-scrolbar;
-  grid-template-rows: 15vh minmax(80vh, auto) 5vh;
+  grid-template-rows: 100vh minmax(0vh, auto) 100vh;
   grid-template-areas:
     'header'
     'main'
