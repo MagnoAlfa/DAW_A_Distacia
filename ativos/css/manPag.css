@@ -1,19 +1,33 @@
-/*Ini Conteudo/Main do site =manPages
+/*
+   Flexbox:
+Aplicar ao menos 4 propriedades de Flexbox em ao menos 1 página do site
+  50 a 52
+  77 a 78
+  81 a 83
+  86 a 89
+  99 a 100
 
 
-font-weight: 400;
-font-size: ;
-font-family: ;
+- Responsividade:
+. Meta tag viewport em todas as páginas
+  linha 7 do index.html
+
+. Media print alterando ao menos 2 propriedades CSS em ao menos 1 página do site.
 
 
-
+. Media query (3 breakpoints) alterando ao menos 3 propriedades CSS, para ao menos  em ao menos 1 página do site.
+  105 a 221
 
 
 */
 
 
 
+@media print {
 
+  body { background-color: black; }
+  
+  }
 
 
 
@@ -34,6 +48,11 @@ body {
 header {
   background-color: blueviolet;
 }
+header div{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap
+}
 
 main {
   background-color: gray;
@@ -47,26 +66,47 @@ section {
   margin: 5cqw 3cqh;
   background-color: rgb(163, 163, 255);
   width: 90%;
-  height: 650px;
   border-radius: 55px;
+
+  justify-content: center;
+
   overflow: hidden;
+  overflow-x: auto;
+  white-space: nowrap;
 }
 
+article {
+  display: flex;
+  flex-direction: column;
 
-section div {
-  grid-area: "conte";
 }
+
 
 .Seção {
-  display: flex;
-  padding: 0px 5px;
-  align-items: center;
+  margin: auto;
+
   gap: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
 .conteudo,
 figcaption {
   display: none;
+}
+
+#Menu_pag {
+  display: flex;
+  justify-content: space-evenly
+}
+
+#Menu_pag a{
+  padding: 10px;
+  margin: 10px;
+  background-color: orange;
+  color: black;
+  font-size: large;
 }
 
 /*|Tela maior que 910px|*/
@@ -78,8 +118,7 @@ figcaption {
 
   .Seção {
     display: flex;
-    padding: 0px 5px;
-    align-items: center;
+    margin: auto;
     gap: 20px;
   }
 
@@ -98,8 +137,7 @@ figcaption {
 
   .Seção {
     display: flex;
-    padding: 0px 5px;
-    align-items: center;
+    margin: auto;
     gap: 20px;
   }
 
@@ -125,19 +163,19 @@ figcaption {
     display: inline;
   }
 
-  
+
   figure {
     margin: auto 10%;
   }
 
   .Seção {
     display: flex;
-    padding: 0px 5px;
-    align-items: center;
+    margin: auto;
     gap: 20px;
   }
 
 }
+
 
 
 /*|Tela maior que 500px|*/
@@ -152,7 +190,7 @@ figcaption {
   }
 
   article img {
-    width: 100%;
+    width: 100cqw;
   }
 
   body {
@@ -163,6 +201,7 @@ figcaption {
 /*|Tela maior que 400px|*/
 @media only screen and (max-width: 400px) {
 
+  
 
   body {
     grid-template-columns: 92vw;
