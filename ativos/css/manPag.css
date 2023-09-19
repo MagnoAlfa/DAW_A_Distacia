@@ -18,7 +18,6 @@ font-family: ;
 
 
 
-
 body {
   background-color: brown;
   display: grid;
@@ -28,8 +27,8 @@ body {
     'header'
     'main'
     'footer';
-    
-font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 header {
@@ -46,12 +45,16 @@ footer {
 
 section {
   margin: 5cqw 3cqh;
-  background-color: blue;
-  width: 90cqw;
-  height: 693px;
+  background-color: rgb(163, 163, 255);
+  width: 90%;
+  height: 650px;
   border-radius: 55px;
-  overflow:hidden;
-  clip:;
+  overflow: hidden;
+}
+
+
+section div {
+  grid-area: "conte";
 }
 
 .Seção {
@@ -60,6 +63,132 @@ section {
   align-items: center;
   gap: 20px;
 }
+
+.conteudo,
+figcaption {
+  display: none;
+}
+
+/*|Tela maior que 910px|*/
+@media only screen and (max-width: 910px) {
+
+  section {
+    background-color: rgb(78, 78, 188);
+  }
+
+  .Seção {
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  body {
+    grid-template-columns: 96.7vw;
+  }
+
+}
+
+/*|Tela maior que 750px|*/
+@media only screen and (max-width: 750px) {
+
+  section {
+    background-color: rgb(29, 29, 158);
+  }
+
+  .Seção {
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 20px;
+  }
+
+  body {
+    grid-template-columns: 96vw;
+  }
+}
+
+
+/*|Tela maior que 600px|*/
+@media only screen and (max-width: 600px) {
+
+
+  section {
+    margin: 1cqw 3cqh;
+  }
+
+  body {
+    grid-template-columns: 95vw;
+  }
+
+  .conteudo {
+    display: inline;
+  }
+
+  
+  figure {
+    margin: auto 10%;
+  }
+
+  .Seção {
+    display: flex;
+    padding: 0px 5px;
+    align-items: center;
+    gap: 20px;
+  }
+
+}
+
+
+/*|Tela maior que 500px|*/
+@media only screen and (max-width: 500px) {
+  figure {
+    margin: 0;
+  }
+
+  section {
+    margin: 0cqw 3cqh;
+    height: auto;
+  }
+
+  article img {
+    width: 100%;
+  }
+
+  body {
+    grid-template-columns: 94vw;
+  }
+}
+
+/*|Tela maior que 400px|*/
+@media only screen and (max-width: 400px) {
+
+
+  body {
+    grid-template-columns: 92vw;
+  }
+}
+
+
+/*|Tela maior que 300px|*/
+@media only screen and (max-width: 300px) {
+
+
+  body {
+    grid-template-columns: 91vw;
+  }
+}
+
+
+/*|Tela maior que 200px|*/
+@media only screen and (max-width: 200px) {
+
+  body {
+    grid-template-columns: 88vw;
+  }
+}
+
+
 
 /*
 #manPages {
