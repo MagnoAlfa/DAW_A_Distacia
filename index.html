@@ -3,8 +3,10 @@
 
 <head>
   <title>Montra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="ativos/css/manPag.css" />
-  <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0">
   <!--<link rel="stylesheet" type="text/css" href="ativos/css/styleReset.css">-->
   <!--<link rel="stylesheet" type="text/css" href="ativos/css/cssGlobal.css">-->
   <!--<link rel="icon" href="../Logo.jpg" sizes="32x32">-->
@@ -17,164 +19,292 @@
         <h1>Montra</h1>
       </div>
       <figure>
-        <img src="https://yt3.googleusercontent.com/ytc/AOPolaRlDYhSBQvVGdOktiNc5KOyjpbiMTm2jgBd4hryvyk=s176-c-k-c0x00ffffff-no-rj" alt="Montra" />
+        <img
+          src="https://yt3.googleusercontent.com/ytc/AOPolaRlDYhSBQvVGdOktiNc5KOyjpbiMTm2jgBd4hryvyk=s176-c-k-c0x00ffffff-no-rj"
+          alt="Montra" />
       </figure>
     </div>
   </header>
 
-  <main>
+  <main class="container">
     <!--|  |-->
     <div id="Menu_pag"><!--|Menu da Pagina|-->
       <a href="index.html">Home</a>
       <a href="sobre.html">Sobre</a>
       <a href="projeto.html" target="blank">Sobre</a>
     </div>
-    <section>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!--|Conteudo|-->
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71sCFwC6rTL._SL1215_.jpg&f=1&nofb=1&ipt=5ba03bd864c4f569cea2675ad015dd443287c408e5240896f4f51e4f0aaac43b&ipo=images"
+            width="400px" height="500px" alt="Primeiro Slide">
+          <div class="carousel-caption">
+            <h5>BoJack Horseman</h5>
+            <p>BoJack Horseman era a estrela du show de televisão Horsin Aroung na década dos noventas,
+              agora ele mora em Hollywood afogado e quixoso de tudo.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <!--|Conteudo|-->
+            <article class="col-sm-6">
+              <figure>
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71sCFwC6rTL._SL1215_.jpg&f=1&nofb=1&ipt=5ba03bd864c4f569cea2675ad015dd443287c408e5240896f4f51e4f0aaac43b&ipo=images"
+                  height="500px" usemap="mapa" />
+                <figcaption>Legenda da Imagem/figura</figcaption>
+              </figure>
+              <h3>BoJack Horseman</h3>
+              <p class="conteudo">BoJack Horseman era a estrela du show de televisão Horsin Aroung na década dos
+                noventas,
+                agora ele mora em Hollywood afogado e quixoso de tudo.</p>
+            </article>
+            <!--|Conteudo|-->
+            <article class="col-sm-6">
+              <figure>
+                <img
+                  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fmetagalaxia.com.br%2Fwp-content%2Fuploads%2F2022%2F09%2Fcyberpunk-mercenarios-1.webp%3Fresize%3D819%252C1024%26ssl%3D1&f=1&nofb=1&ipt=993de9e55f08335168b28391eeaa14230e41292dbb92b15a2384c05aae2ef30a&ipo=images"
+                  height="500px" usemap="mapa" />
+                <figcaption>Legenda da Imagem/figura</figcaption>
+              </figure>
+              <h3>Cyberpunk: Mercenários</h3>
+              <p class="conteudo">Para sobreviver em uma realidade distópica na qual a corrupção e os implantes
+                cibernéticos
+                controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.</p>
+            </article>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card bg-dark text-white">
+            <img class="card-img"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fmetagalaxia.com.br%2Fwp-content%2Fuploads%2F2022%2F09%2Fcyberpunk-mercenarios-1.webp%3Fresize%3D819%252C1024%26ssl%3D1&f=1&nofb=1&ipt=993de9e55f08335168b28391eeaa14230e41292dbb92b15a2384c05aae2ef30a&ipo=images"
+              alt="Imagem do card" height="500px">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Cyberpunk: Mercenários</h5>
+              <p class="card-text">Para sobreviver em uma realidade distópica na qual a corrupção e os implantes
+                cibernéticos controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+
+    <section class="row">
       <!--|Projetos|-->
-      <h2 align="center">Projetos</h2>
-      <div align="center" class="Seção">
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="ativos\Imagens\Opera Instantâneo_2023-09-19_182340_index.html.png" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Site Montra</h3>
-          <p class="conteudo">Uma pagina para eu postar meus conteúdos e interesses.</p>
-        </article>
+      <div class="col">
+        <h2>Projetos</h2>
+        <div class="row">
+          <!--|Conteudo|-->
+          <article class="col-md-4">
+            <div class="card">
+              <figure>
+                <img class="card-img" src="ativos\Imagens\Opera Instantâneo_2023-09-19_182340_index.html.png"
+                 height="500px"/>
+                <figcaption>Legenda da Imagem/figura</figcaption>
+              </figure>
+              <div class="card-img">
+                <h5 class="card-title">Site Montra</h5>
+                <p class="card-text">Uma pagina para eu postar meus conteúdos e interesses.</p>
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <br />
     <!--|Midias Consumidas Por Mim|-->
-    <section>
+    <section class="row">
       <!--|Desenhos|-->
-      <div align="center">
+      <div class="col">
         <h2>Desenhos</h2>
-      </div>
-      <div align="center" class="Seção">
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71sCFwC6rTL._SL1215_.jpg&f=1&nofb=1&ipt=5ba03bd864c4f569cea2675ad015dd443287c408e5240896f4f51e4f0aaac43b&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>BoJack Horseman</h3>
-          <p class="conteudo">BoJack Horseman era a estrela du show de televisão Horsin Aroung na década dos noventas, agora ele mora em Hollywood afogado e quixoso de tudo.</p>
-        </article>
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fmetagalaxia.com.br%2Fwp-content%2Fuploads%2F2022%2F09%2Fcyberpunk-mercenarios-1.webp%3Fresize%3D819%252C1024%26ssl%3D1&f=1&nofb=1&ipt=993de9e55f08335168b28391eeaa14230e41292dbb92b15a2384c05aae2ef30a&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Cyberpunk: Mercenários</h3>
-          <p class="conteudo">Para sobreviver em uma realidade distópica na qual a corrupção e os implantes cibernéticos controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.</p>
-        </article>
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcosmonerd.com.br%2Fuploads%2F2020%2F09%2Fkipo-and-the-age-of-wonderbeasts-15-1-683x1024.jpg&f=1&nofb=1&ipt=42413e12c00bd269688503edb16e9ccf88f459ccb6afec9609a3429576bf60d9&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Kipo e os Animonstros</h3>
-          <p class="conteudo">Uma garota explora as possibilidades em um mundo pós-apocalíptico.</p>
-        </article>
+        <div class="row">
+          <!--|Conteudo|-->
+          <article class="col-md-4">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F71sCFwC6rTL._SL1215_.jpg&f=1&nofb=1&ipt=5ba03bd864c4f569cea2675ad015dd443287c408e5240896f4f51e4f0aaac43b&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>BoJack Horseman</h3>
+            <p class="conteudo">BoJack Horseman era a estrela du show de televisão Horsin Aroung na década dos noventas,
+              agora ele mora em Hollywood afogado e quixoso de tudo.</p>
+            </div>
+          </article>
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi0.wp.com%2Fmetagalaxia.com.br%2Fwp-content%2Fuploads%2F2022%2F09%2Fcyberpunk-mercenarios-1.webp%3Fresize%3D819%252C1024%26ssl%3D1&f=1&nofb=1&ipt=993de9e55f08335168b28391eeaa14230e41292dbb92b15a2384c05aae2ef30a&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Cyberpunk: Mercenários</h3>
+            <p class="conteudo">Para sobreviver em uma realidade distópica na qual a corrupção e os implantes
+              cibernéticos
+              controlam tudo, um jovem talentoso e impulsivo decide se tornar um mercenário.</p>
+            </div>
+          </article>
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcosmonerd.com.br%2Fuploads%2F2020%2F09%2Fkipo-and-the-age-of-wonderbeasts-15-1-683x1024.jpg&f=1&nofb=1&ipt=42413e12c00bd269688503edb16e9ccf88f459ccb6afec9609a3429576bf60d9&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Kipo e os Animonstros</h3>
+            <p class="conteudo">Uma garota explora as possibilidades em um mundo pós-apocalíptico.</p>
+          </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <br />
-    <section>
+    <section class="row">
       <!--|Jogos|-->
-      <div align="center">
+      <div class="col">
         <h2>Jogos</h2>
-      </div>
-      <div align="center" class="Seção">
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets1.ignimgs.com%2F2019%2F07%2F21%2Fdeath-stranding---button-20197-1563692244528.jpg&f=1&nofb=1&ipt=1b86838298c0ede7572f9d1bfc58b7427aa4b50582ec4b6733b70e143a26ce9a&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Death Stranding</h3>
-          <p class="conteudo">Do lendário diretor Hideo Kojima, surge uma experiência que desafia gêneros, ainda maior em DIRECTOR’S CUT. Jogando como Sam Bridges, sua missão é entregar esperança à humanidade ao conectar os sobreviventes de uma América devastada. Você conseguirá reunir este mundo...</p>
-        </article>
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ultimagame.es%2Fbaldur-gate-iii%2Fimagen-i14074-pge.jpg&f=1&nofb=1&ipt=5c5d6ce2363b81193ac78070fa0e1d7a010b5967f51ba506e374ee13aadc7045&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Baldurs Gate 3</h3>
-          <p class="conteudo">Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.</p>
-        </article>
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.TWumYWo0jBEGX9dJNw4oJgHaJX%26pid%3DApi&f=1&ipt=ab1733bd1650ed0e244ca581618af41bdcdeea9709cad4bb74fb0828d0e969ae&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Stellaris</h3>
-          <p class="conteudo">Explore uma galáxia repleta de maravilhas neste jogo de estratégia de ficção científica da Paradox Development Studios. Interaja com várias raças alienígenas, descubra novos mundos com eventos inesperados e expanda o alcance do seu império. Cada nova aventura contém possibilidades quase...</p>
-        </article>
+        <div class="row">
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fassets1.ignimgs.com%2F2019%2F07%2F21%2Fdeath-stranding---button-20197-1563692244528.jpg&f=1&nofb=1&ipt=1b86838298c0ede7572f9d1bfc58b7427aa4b50582ec4b6733b70e143a26ce9a&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Death Stranding</h3>
+            <p class="conteudo">Do lendário diretor Hideo Kojima, surge uma experiência que desafia gêneros, ainda maior
+              em DIRECTOR’S CUT. Jogando como Sam Bridges, sua missão é entregar esperança à humanidade ao conectar os
+              sobreviventes de uma América devastada. Você conseguirá reunir este mundo...</p>
+            </div>
+          </article>
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.ultimagame.es%2Fbaldur-gate-iii%2Fimagen-i14074-pge.jpg&f=1&nofb=1&ipt=5c5d6ce2363b81193ac78070fa0e1d7a010b5967f51ba506e374ee13aadc7045&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Baldurs Gate 3</h3>
+            <p class="conteudo">Gather your party, and return to the Forgotten Realms in a tale of fellowship and
+              betrayal, sacrifice and survival, and the lure of absolute power.</p>
+            </div>
+          </article>
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.TWumYWo0jBEGX9dJNw4oJgHaJX%26pid%3DApi&f=1&ipt=ab1733bd1650ed0e244ca581618af41bdcdeea9709cad4bb74fb0828d0e969ae&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Stellaris</h3>
+            <p class="conteudo">Explore uma galáxia repleta de maravilhas neste jogo de estratégia de ficção científica
+              da
+              Paradox Development Studios. Interaja com várias raças alienígenas, descubra novos mundos com eventos
+              inesperados e expanda o alcance do seu império. Cada nova aventura contém possibilidades quase...</p>
+          </article>
+        </div>
+        </div>
       </div>
     </section>
 
     <br />
-    <section>
+    <section class="row">
       <!--|Filmes e Series|-->
-      <div align="center">
+      <div class="col">
         <h2>Filmes e Series</h2>
-      </div>
-      <div align="center" class="Seção">
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg%40._V1_.jpg&f=1&nofb=1&ipt=5e008fbe2a263908df4f5b0501dd88f75336e8b91f127d126a6372419068e257&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>Lei & Desordem</h3>
-          <p class="conteudo">Jake Peralta, um detetive imaturo de Nova York, entra em conflito com seu novo comandante, o sério e severo Capitão Ray Holt.</p>
-        </article>
-        <!--|Conteudo|-->
-        <article>
-          <figure>
-            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2F7PRddO7z7mcPi21nZTCMGShAyy1.jpg&f=1&nofb=1&ipt=dd7fbde656ea7606504fcdc72353b34b8658503d65f5f8b44929005f2d8dcc97&ipo=images" width="400px" height="500px" usemap="mapa" />
-            <figcaption>Legenda da Imagem/figura</figcaption>
-          </figure>
-          <h3>black mirror</h3>
-          <p class="conteudo">Uma série de antologias explora um mundo de alta tecnologia, onde as maiores inovações da humanidade e os instintos mais sombrios colidem.</p>
-        </article>
+        <div class="row">
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FM%2FMV5BNzVkYWY4NzYtMWFlZi00YzkwLThhZDItZjcxYTU4ZTMzMDZmXkEyXkFqcGdeQXVyODUxOTU0OTg%40._V1_.jpg&f=1&nofb=1&ipt=5e008fbe2a263908df4f5b0501dd88f75336e8b91f127d126a6372419068e257&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>Lei & Desordem</h3>
+            <p class="conteudo">Jake Peralta, um detetive imaturo de Nova York, entra em conflito com seu novo
+              comandante,
+              o sério e severo Capitão Ray Holt.</p>
+            </div>
+          </article>
+          <!--|Conteudo|-->
+          <article class="col">
+            <div class="card">
+            <figure>
+              <img
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.themoviedb.org%2Ft%2Fp%2Foriginal%2F7PRddO7z7mcPi21nZTCMGShAyy1.jpg&f=1&nofb=1&ipt=dd7fbde656ea7606504fcdc72353b34b8658503d65f5f8b44929005f2d8dcc97&ipo=images"
+                width="400px" height="500px" usemap="mapa" />
+              <figcaption>Legenda da Imagem/figura</figcaption>
+            </figure>
+            <h3>black mirror</h3>
+            <p class="conteudo">Uma série de antologias explora um mundo de alta tecnologia, onde as maiores inovações
+              da
+              humanidade e os instintos mais sombrios colidem.</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <br />
-    <section>
+    <section class="row">
       <!--|Musicas|-->
-      <div align="center">
+      <div class="col">
         <h2>Musicas</h2>
       </div>
-      <div align="center" class="Seção">
+      <div class="row">
+        <!--|Conteudo|-->
       </div>
     </section>
 
     <br />
-    <section>
+    <section class="row">
       <!--|Pessoas|-->
-      <div align="center">
+      <div class="col">
         <h2>Pessoas</h2>
       </div>
-      <div align="center" class="Seção">
+      <div class="row">
+        <!--|Conteudo|-->
       </div>
     </section>
 
     <br />
-    <section>
+    <section class="row">
       <!--|Noticias|-->
-      <div align="center">
+      <div class="col">
         <h2>Noticias</h2>
       </div>
-      <div align="center" class="Seção">
+      <div class="row">
         <!--|Conteudo|-->
       </div>
     </section>
@@ -185,6 +315,15 @@
       &copy; 2023 - Todos os direitos reservados por MontraCopania.
     </p>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
