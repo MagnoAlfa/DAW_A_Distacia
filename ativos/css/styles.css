@@ -1,0 +1,52 @@
+/*gerais*/
+body {
+    font-size: 'Roboto', sans-serif;
+}
+
+.row {
+    margin:0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    font-size: 14px;
+}
+
+/*barra de navegação*/
+.navbar {
+    background-color: blue;
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: blue;
+}
+
+#logo {
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color:black;
+}
+
+.navbar-brand:hover {
+    color:chartreuse;
+}
+
+#navbar-links a {
+    color:black;
+}
+
+.navbar-links a {
+    color:blue;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+}
